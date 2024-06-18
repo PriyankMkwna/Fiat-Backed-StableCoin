@@ -15,7 +15,7 @@ const SellSuccess = () => {
       try {
         console.log('Initiating burn token request');
         const provider = new ethers.JsonRpcProvider('https://eth-sepolia.g.alchemy.com/v2/8P5tiYMyM_zLtMAGJ1UjEmEA4j4ZTl61');
-        const privateKey = '127676b648f696051c0d4d77cdcb1a0bace3fb9fbbcd5e46e42076e64d1b0f12'; // Replace with your private key
+        const privateKey = '##########################################'; // Replace with your private key
         const wallet = new ethers.Wallet(privateKey, provider);
 
         const contractAddress = '0x49CcB1Fb783aff07Af23e060d52C5b781106Aa70'; // Replace with your contract address
